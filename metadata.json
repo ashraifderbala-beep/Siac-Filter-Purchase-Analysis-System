@@ -1,0 +1,6 @@
+{
+  "name": "نظام إدارة شراء الفلاتر — SIAC",
+  "description": "منظومة متكاملة لإدارة ومطابقة وتحليل طلبات شراء الفلاتر، وتخصيص رصيد المخازن، وبوابة الموردين، ومقارنة العروض مع أسعار SAP ومتابعة أوامر الشراء.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,11 +1,31 @@
-<div align="center">
+# نظام إدارة شراء الفلاتر — شركة SIAC الهندسية
+### منظومة تحليل وتجميع البدائل، وتخصيص رصيد المخزن المركزي 9004، وبوابة الموردين والمقارنة والترسية الذكية ومتابعة أوامر الشراء (POs).
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+---
 
-  <h1>Built with AI Studio</h2>
+## 🚀 طريقة التشغيل على Windows:
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. **انقر نقراً مزدوجاً (Double Click)** على ملف:
+   👉 `run.bat`
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+2. سيقوم الملف تلقائياً بـ:
+   - فحص وتثبيت المكتبات اللازمة لأول مرة (`npm install`).
+   - تشغيل الخادم المحلي على المنفذ `3000`.
+   - فتح المتصفح تلقائياً على الرابط: `http://localhost:3000`.
 
-</div>
+---
+
+## 📋 المتطلبات (تثبيت مرة واحدة فقط):
+- برنامج **Node.js** (إصدار 18 أو أحدث) من الموقع الرسمي: [https://nodejs.org](https://nodejs.org).
+
+---
+
+## 🛠️ التشغيل اليدوي عبر موجه الأوامر (CMD / Terminal):
+```bash
+# تثبيت الحزم
+npm install
+
+# تشغيل النظام
+npm run dev
+```
+ثم فتح المتصفح على: `http://localhost:3000`
